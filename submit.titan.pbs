@@ -1,0 +1,25 @@
+#!/bin/bash
+#PBS -A STF007
+#PBS -l nodes=4
+#PBS -l walltime=0:10:00
+#PBS -j oe
+#PBS -o affinity-output.titan.intel12.$PBS_JOBID.txt
+#PBS -M frenchrd@ornl.gov
+#PBS -m e
+#PBS -N thread-affinity-intel12
+
+cd $MEMBERWORK/stf007
+date
+
+echo "+----------------------------------+"
+echo "|1 rank per node, 16 OpenMP Threads|"
+echo "+----------------------------------+"
+export OMP_NUM_THREADS=16
+aprun -n 4 -N 1 ./thread-affinity-benchmark.titan.intel12.exe
+
+
+echo "+----------------------------------+"
+echo "|2 ranks per node, 8 OpenMP Threads|"
+echo "+----------------------------------+"
+export OMP_NUM_THREADS=8
+aprun -n 8 -N 2 ./thread-affinity-benchmark.titan.intel12.exe

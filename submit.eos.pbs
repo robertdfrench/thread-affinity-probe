@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -A STF007
+#PBS -l nodes=4
+#PBS -l walltime=0:10:00
+#PBS -o eos-threading.$PBS_JOBID.txt
+#PBS -M frenchrd@ornl.gov
+#PBS -m e
+#PBS -N thread-affinity-benchmark
+
+cd $MEMBERWORK/stf007
+date
+export OMP_NUM_THREADS=16
+aprun -n 4 -N 1 ./thread-affinity-benchmark.eos.exe
