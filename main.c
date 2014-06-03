@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include <math.h>
 #include <stdlib.h>
+#include <sched.h>
 
 #define length_of_hostname 64
 typedef struct thread_location {
