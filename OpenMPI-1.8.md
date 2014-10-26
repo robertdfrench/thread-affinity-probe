@@ -30,12 +30,19 @@ Launched using `$ mpirun --bind-to-core ./a.out`.
 ### OpenMPI 1.8
 
 
-#### 1 Thread per Rank
+#### 1 Thread per Rank (binding to hardware threads)
 
 Launched using `$ mpirun --map-by core --bind-to hwthread ./a.out`
 * Intel 13: 5.4s
 * Intel 14: 3.9s
 * GNU  4.7: 8.9s
+
+#### 1 Thread per Rank (binding to cores)
+
+Launched using `$ mpirun --bind-to core ./a.out`
+* Intel 13: 8.9s
+* Intel 14: 6.5s
+* GNU  4.7: 14s
 
 #### 2 Threads per Rank
 
