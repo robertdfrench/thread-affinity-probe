@@ -1,0 +1,366 @@
+============================================
+OpenMPI 1.8 -- Intel 14 -- 1 thread per rank
+============================================
+[rhea59:112676] MCW rank 15 bound to socket 1[core 15[hwt 0]]: [../../../../../../../..][../../../../../../../B.]
+[rhea59:112676] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B./../../../../../../..][../../../../../../../..]
+[rhea59:112676] MCW rank 1 bound to socket 0[core 1[hwt 0]]: [../B./../../../../../..][../../../../../../../..]
+[rhea59:112676] MCW rank 2 bound to socket 0[core 2[hwt 0]]: [../../B./../../../../..][../../../../../../../..]
+[rhea59:112676] MCW rank 3 bound to socket 0[core 3[hwt 0]]: [../../../B./../../../..][../../../../../../../..]
+[rhea59:112676] MCW rank 4 bound to socket 0[core 4[hwt 0]]: [../../../../B./../../..][../../../../../../../..]
+[rhea59:112676] MCW rank 5 bound to socket 0[core 5[hwt 0]]: [../../../../../B./../..][../../../../../../../..]
+[rhea59:112676] MCW rank 6 bound to socket 0[core 6[hwt 0]]: [../../../../../../B./..][../../../../../../../..]
+[rhea59:112676] MCW rank 7 bound to socket 0[core 7[hwt 0]]: [../../../../../../../B.][../../../../../../../..]
+[rhea59:112676] MCW rank 8 bound to socket 1[core 8[hwt 0]]: [../../../../../../../..][B./../../../../../../..]
+[rhea59:112676] MCW rank 9 bound to socket 1[core 9[hwt 0]]: [../../../../../../../..][../B./../../../../../..]
+[rhea59:112676] MCW rank 10 bound to socket 1[core 10[hwt 0]]: [../../../../../../../..][../../B./../../../../..]
+[rhea59:112676] MCW rank 11 bound to socket 1[core 11[hwt 0]]: [../../../../../../../..][../../../B./../../../..]
+[rhea59:112676] MCW rank 12 bound to socket 1[core 12[hwt 0]]: [../../../../../../../..][../../../../B./../../..]
+[rhea59:112676] MCW rank 13 bound to socket 1[core 13[hwt 0]]: [../../../../../../../..][../../../../../B./../..]
+[rhea59:112676] MCW rank 14 bound to socket 1[core 14[hwt 0]]: [../../../../../../../..][../../../../../../B./..]
+"hostname": rhea59, "cpu_id": 15, "rank": 15, "thread_id": 0
+"hostname": rhea59, "cpu_id": 0, "rank": 0, "thread_id": 0
+"hostname": rhea59, "cpu_id": 1, "rank": 1, "thread_id": 0
+"hostname": rhea59, "cpu_id": 2, "rank": 2, "thread_id": 0
+"hostname": rhea59, "cpu_id": 3, "rank": 3, "thread_id": 0
+"hostname": rhea59, "cpu_id": 4, "rank": 4, "thread_id": 0
+"hostname": rhea59, "cpu_id": 5, "rank": 5, "thread_id": 0
+"hostname": rhea59, "cpu_id": 6, "rank": 6, "thread_id": 0
+"hostname": rhea59, "cpu_id": 7, "rank": 7, "thread_id": 0
+"hostname": rhea59, "cpu_id": 8, "rank": 8, "thread_id": 0
+"hostname": rhea59, "cpu_id": 9, "rank": 9, "thread_id": 0
+"hostname": rhea59, "cpu_id": 10, "rank": 10, "thread_id": 0
+"hostname": rhea59, "cpu_id": 11, "rank": 11, "thread_id": 0
+"hostname": rhea59, "cpu_id": 12, "rank": 12, "thread_id": 0
+"hostname": rhea59, "cpu_id": 13, "rank": 13, "thread_id": 0
+"hostname": rhea59, "cpu_id": 14, "rank": 14, "thread_id": 0
+"rank": 7, "time": 3.972900
+"rank": 1, "time": 3.974056
+"rank": 3, "time": 3.975480
+"rank": 14, "time": 3.975106
+"rank": 10, "time": 3.977032
+"rank": 13, "time": 3.979030
+"rank": 9, "time": 3.979472
+"rank": 2, "time": 3.980899
+"rank": 8, "time": 3.983537
+"rank": 5, "time": 3.984124
+"rank": 11, "time": 3.985074
+"rank": 12, "time": 3.984897
+"rank": 0, "time": 3.985239
+"rank": 6, "time": 3.985536
+"rank": 15, "time": 3.986991
+"rank": 4, "time": 3.989002
+============================================
+OpenMPI 1.6 -- Intel 14 -- 1 thread per rank
+============================================
+[rhea59:112768] MCW rank 7 bound to socket 0[core 7]: [. . . . . . . B][. . . . . . . .]
+[rhea59:112768] MCW rank 8 bound to socket 1[core 0]: [. . . . . . . .][B . . . . . . .]
+[rhea59:112768] MCW rank 9 bound to socket 1[core 1]: [. . . . . . . .][. B . . . . . .]
+[rhea59:112768] MCW rank 10 bound to socket 1[core 2]: [. . . . . . . .][. . B . . . . .]
+[rhea59:112768] MCW rank 11 bound to socket 1[core 3]: [. . . . . . . .][. . . B . . . .]
+[rhea59:112768] MCW rank 12 bound to socket 1[core 4]: [. . . . . . . .][. . . . B . . .]
+[rhea59:112768] MCW rank 13 bound to socket 1[core 5]: [. . . . . . . .][. . . . . B . .]
+[rhea59:112768] MCW rank 14 bound to socket 1[core 6]: [. . . . . . . .][. . . . . . B .]
+[rhea59:112768] MCW rank 15 bound to socket 1[core 7]: [. . . . . . . .][. . . . . . . B]
+[rhea59:112768] MCW rank 0 bound to socket 0[core 0]: [B . . . . . . .][. . . . . . . .]
+[rhea59:112768] MCW rank 1 bound to socket 0[core 1]: [. B . . . . . .][. . . . . . . .]
+[rhea59:112768] MCW rank 2 bound to socket 0[core 2]: [. . B . . . . .][. . . . . . . .]
+[rhea59:112768] MCW rank 3 bound to socket 0[core 3]: [. . . B . . . .][. . . . . . . .]
+[rhea59:112768] MCW rank 4 bound to socket 0[core 4]: [. . . . B . . .][. . . . . . . .]
+[rhea59:112768] MCW rank 5 bound to socket 0[core 5]: [. . . . . B . .][. . . . . . . .]
+[rhea59:112768] MCW rank 6 bound to socket 0[core 6]: [. . . . . . B .][. . . . . . . .]
+"hostname": rhea59, "cpu_id": 16, "rank": 0, "thread_id": 0
+"hostname": rhea59, "cpu_id": 17, "rank": 1, "thread_id": 0
+"hostname": rhea59, "cpu_id": 18, "rank": 2, "thread_id": 0
+"hostname": rhea59, "cpu_id": 19, "rank": 3, "thread_id": 0
+"hostname": rhea59, "cpu_id": 20, "rank": 4, "thread_id": 0
+"hostname": rhea59, "cpu_id": 21, "rank": 5, "thread_id": 0
+"hostname": rhea59, "cpu_id": 22, "rank": 6, "thread_id": 0
+"hostname": rhea59, "cpu_id": 23, "rank": 7, "thread_id": 0
+"hostname": rhea59, "cpu_id": 24, "rank": 8, "thread_id": 0
+"hostname": rhea59, "cpu_id": 25, "rank": 9, "thread_id": 0
+"hostname": rhea59, "cpu_id": 26, "rank": 10, "thread_id": 0
+"hostname": rhea59, "cpu_id": 27, "rank": 11, "thread_id": 0
+"hostname": rhea59, "cpu_id": 28, "rank": 12, "thread_id": 0
+"hostname": rhea59, "cpu_id": 29, "rank": 13, "thread_id": 0
+"hostname": rhea59, "cpu_id": 30, "rank": 14, "thread_id": 0
+"hostname": rhea59, "cpu_id": 31, "rank": 15, "thread_id": 0
+"rank": 7, "time": 6.513222
+"rank": 5, "time": 6.513532
+"rank": 2, "time": 6.515131
+"rank": 3, "time": 6.519471
+"rank": 4, "time": 6.531202
+"rank": 14, "time": 6.532474
+"rank": 1, "time": 6.532644
+"rank": 12, "time": 6.539253
+"rank": 11, "time": 6.539966
+"rank": 9, "time": 6.540918
+"rank": 13, "time": 6.553934
+"rank": 10, "time": 6.557095
+"rank": 0, "time": 6.576903
+"rank": 8, "time": 6.592881
+"rank": 6, "time": 6.723069
+"rank": 15, "time": 6.738242
+=============================================
+OpenMPI 1.8 -- Intel 14 -- 2 threads per rank
+=============================================
+[rhea59:112844] MCW rank 15 bound to socket 1[core 15[hwt 0]]: [../../../../../../../..][../../../../../../../B.]
+[rhea59:112844] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B./../../../../../../..][../../../../../../../..]
+[rhea59:112844] MCW rank 1 bound to socket 0[core 1[hwt 0]]: [../B./../../../../../..][../../../../../../../..]
+[rhea59:112844] MCW rank 2 bound to socket 0[core 2[hwt 0]]: [../../B./../../../../..][../../../../../../../..]
+[rhea59:112844] MCW rank 3 bound to socket 0[core 3[hwt 0]]: [../../../B./../../../..][../../../../../../../..]
+[rhea59:112844] MCW rank 4 bound to socket 0[core 4[hwt 0]]: [../../../../B./../../..][../../../../../../../..]
+[rhea59:112844] MCW rank 5 bound to socket 0[core 5[hwt 0]]: [../../../../../B./../..][../../../../../../../..]
+[rhea59:112844] MCW rank 6 bound to socket 0[core 6[hwt 0]]: [../../../../../../B./..][../../../../../../../..]
+[rhea59:112844] MCW rank 7 bound to socket 0[core 7[hwt 0]]: [../../../../../../../B.][../../../../../../../..]
+[rhea59:112844] MCW rank 8 bound to socket 1[core 8[hwt 0]]: [../../../../../../../..][B./../../../../../../..]
+[rhea59:112844] MCW rank 9 bound to socket 1[core 9[hwt 0]]: [../../../../../../../..][../B./../../../../../..]
+[rhea59:112844] MCW rank 10 bound to socket 1[core 10[hwt 0]]: [../../../../../../../..][../../B./../../../../..]
+[rhea59:112844] MCW rank 11 bound to socket 1[core 11[hwt 0]]: [../../../../../../../..][../../../B./../../../..]
+[rhea59:112844] MCW rank 12 bound to socket 1[core 12[hwt 0]]: [../../../../../../../..][../../../../B./../../..]
+[rhea59:112844] MCW rank 13 bound to socket 1[core 13[hwt 0]]: [../../../../../../../..][../../../../../B./../..]
+[rhea59:112844] MCW rank 14 bound to socket 1[core 14[hwt 0]]: [../../../../../../../..][../../../../../../B./..]
+"hostname": rhea59, "cpu_id": 4, "rank": 4, "thread_id": 0
+"hostname": rhea59, "cpu_id": 4, "rank": 4, "thread_id": 1
+"hostname": rhea59, "cpu_id": 5, "rank": 5, "thread_id": 0
+"hostname": rhea59, "cpu_id": 5, "rank": 5, "thread_id": 1
+"hostname": rhea59, "cpu_id": 6, "rank": 6, "thread_id": 0
+"hostname": rhea59, "cpu_id": 6, "rank": 6, "thread_id": 1
+"hostname": rhea59, "cpu_id": 7, "rank": 7, "thread_id": 0
+"hostname": rhea59, "cpu_id": 7, "rank": 7, "thread_id": 1
+"hostname": rhea59, "cpu_id": 8, "rank": 8, "thread_id": 0
+"hostname": rhea59, "cpu_id": 8, "rank": 8, "thread_id": 1
+"hostname": rhea59, "cpu_id": 9, "rank": 9, "thread_id": 0
+"hostname": rhea59, "cpu_id": 9, "rank": 9, "thread_id": 1
+"hostname": rhea59, "cpu_id": 10, "rank": 10, "thread_id": 0
+"hostname": rhea59, "cpu_id": 10, "rank": 10, "thread_id": 1
+"hostname": rhea59, "cpu_id": 11, "rank": 11, "thread_id": 0
+"hostname": rhea59, "cpu_id": 11, "rank": 11, "thread_id": 1
+"hostname": rhea59, "cpu_id": 12, "rank": 12, "thread_id": 0
+"hostname": rhea59, "cpu_id": 12, "rank": 12, "thread_id": 1
+"hostname": rhea59, "cpu_id": 13, "rank": 13, "thread_id": 0
+"hostname": rhea59, "cpu_id": 13, "rank": 13, "thread_id": 1
+"hostname": rhea59, "cpu_id": 14, "rank": 14, "thread_id": 0
+"hostname": rhea59, "cpu_id": 14, "rank": 14, "thread_id": 1
+"hostname": rhea59, "cpu_id": 15, "rank": 15, "thread_id": 0
+"hostname": rhea59, "cpu_id": 15, "rank": 15, "thread_id": 1
+"hostname": rhea59, "cpu_id": 0, "rank": 0, "thread_id": 0
+"hostname": rhea59, "cpu_id": 0, "rank": 0, "thread_id": 1
+"hostname": rhea59, "cpu_id": 1, "rank": 1, "thread_id": 0
+"hostname": rhea59, "cpu_id": 1, "rank": 1, "thread_id": 1
+"hostname": rhea59, "cpu_id": 2, "rank": 2, "thread_id": 0
+"hostname": rhea59, "cpu_id": 2, "rank": 2, "thread_id": 1
+"hostname": rhea59, "cpu_id": 3, "rank": 3, "thread_id": 0
+"hostname": rhea59, "cpu_id": 3, "rank": 3, "thread_id": 1
+"rank": 7, "time": 3.985799
+"rank": 2, "time": 3.986869
+"rank": 9, "time": 3.986680
+"rank": 4, "time": 3.988415
+"rank": 6, "time": 3.987640
+"rank": 10, "time": 3.987257
+"rank": 12, "time": 3.988731
+"rank": 13, "time": 3.988017
+"rank": 5, "time": 3.991176
+"rank": 8, "time": 3.992974
+"rank": 14, "time": 3.997531
+"rank": 15, "time": 3.998002
+"rank": 0, "time": 3.998440
+"rank": 3, "time": 3.998599
+"rank": 1, "time": 3.999008
+"rank": 11, "time": 3.999298
+=============================================
+OpenMPI 1.6 -- Intel 14 -- 2 threads per rank
+=============================================
+[rhea59:112968] MCW rank 7 bound to socket 0[core 7]: [. . . . . . . B][. . . . . . . .]
+[rhea59:112968] MCW rank 8 bound to socket 1[core 0]: [. . . . . . . .][B . . . . . . .]
+[rhea59:112968] MCW rank 9 bound to socket 1[core 1]: [. . . . . . . .][. B . . . . . .]
+[rhea59:112968] MCW rank 10 bound to socket 1[core 2]: [. . . . . . . .][. . B . . . . .]
+[rhea59:112968] MCW rank 11 bound to socket 1[core 3]: [. . . . . . . .][. . . B . . . .]
+[rhea59:112968] MCW rank 12 bound to socket 1[core 4]: [. . . . . . . .][. . . . B . . .]
+[rhea59:112968] MCW rank 13 bound to socket 1[core 5]: [. . . . . . . .][. . . . . B . .]
+[rhea59:112968] MCW rank 14 bound to socket 1[core 6]: [. . . . . . . .][. . . . . . B .]
+[rhea59:112968] MCW rank 15 bound to socket 1[core 7]: [. . . . . . . .][. . . . . . . B]
+[rhea59:112968] MCW rank 0 bound to socket 0[core 0]: [B . . . . . . .][. . . . . . . .]
+[rhea59:112968] MCW rank 1 bound to socket 0[core 1]: [. B . . . . . .][. . . . . . . .]
+[rhea59:112968] MCW rank 2 bound to socket 0[core 2]: [. . B . . . . .][. . . . . . . .]
+[rhea59:112968] MCW rank 3 bound to socket 0[core 3]: [. . . B . . . .][. . . . . . . .]
+[rhea59:112968] MCW rank 4 bound to socket 0[core 4]: [. . . . B . . .][. . . . . . . .]
+[rhea59:112968] MCW rank 5 bound to socket 0[core 5]: [. . . . . B . .][. . . . . . . .]
+[rhea59:112968] MCW rank 6 bound to socket 0[core 6]: [. . . . . . B .][. . . . . . . .]
+"hostname": rhea59, "cpu_id": 23, "rank": 7, "thread_id": 0
+"hostname": rhea59, "cpu_id": 7, "rank": 7, "thread_id": 1
+"hostname": rhea59, "cpu_id": 24, "rank": 8, "thread_id": 0
+"hostname": rhea59, "cpu_id": 8, "rank": 8, "thread_id": 1
+"hostname": rhea59, "cpu_id": 25, "rank": 9, "thread_id": 0
+"hostname": rhea59, "cpu_id": 9, "rank": 9, "thread_id": 1
+"hostname": rhea59, "cpu_id": 26, "rank": 10, "thread_id": 0
+"hostname": rhea59, "cpu_id": 10, "rank": 10, "thread_id": 1
+"hostname": rhea59, "cpu_id": 27, "rank": 11, "thread_id": 0
+"hostname": rhea59, "cpu_id": 11, "rank": 11, "thread_id": 1
+"hostname": rhea59, "cpu_id": 28, "rank": 12, "thread_id": 0
+"hostname": rhea59, "cpu_id": 12, "rank": 12, "thread_id": 1
+"hostname": rhea59, "cpu_id": 29, "rank": 13, "thread_id": 0
+"hostname": rhea59, "cpu_id": 13, "rank": 13, "thread_id": 1
+"hostname": rhea59, "cpu_id": 30, "rank": 14, "thread_id": 0
+"hostname": rhea59, "cpu_id": 14, "rank": 14, "thread_id": 1
+"hostname": rhea59, "cpu_id": 31, "rank": 15, "thread_id": 0
+"hostname": rhea59, "cpu_id": 15, "rank": 15, "thread_id": 1
+"hostname": rhea59, "cpu_id": 16, "rank": 0, "thread_id": 0
+"hostname": rhea59, "cpu_id": 0, "rank": 0, "thread_id": 1
+"hostname": rhea59, "cpu_id": 17, "rank": 1, "thread_id": 0
+"hostname": rhea59, "cpu_id": 1, "rank": 1, "thread_id": 1
+"hostname": rhea59, "cpu_id": 18, "rank": 2, "thread_id": 0
+"hostname": rhea59, "cpu_id": 2, "rank": 2, "thread_id": 1
+"hostname": rhea59, "cpu_id": 19, "rank": 3, "thread_id": 0
+"hostname": rhea59, "cpu_id": 3, "rank": 3, "thread_id": 1
+"hostname": rhea59, "cpu_id": 20, "rank": 4, "thread_id": 0
+"hostname": rhea59, "cpu_id": 4, "rank": 4, "thread_id": 1
+"hostname": rhea59, "cpu_id": 21, "rank": 5, "thread_id": 0
+"hostname": rhea59, "cpu_id": 5, "rank": 5, "thread_id": 1
+"hostname": rhea59, "cpu_id": 22, "rank": 6, "thread_id": 0
+"hostname": rhea59, "cpu_id": 6, "rank": 6, "thread_id": 1
+"rank": 15, "time": 3.049437
+"rank": 5, "time": 3.049685
+"rank": 1, "time": 3.051623
+"rank": 2, "time": 3.052407
+"rank": 12, "time": 3.052515
+"rank": 14, "time": 3.052706
+"rank": 7, "time": 3.052882
+"rank": 10, "time": 3.053146
+"rank": 3, "time": 3.053874
+"rank": 4, "time": 3.053884
+"rank": 9, "time": 3.053995
+"rank": 13, "time": 3.054935
+"rank": 11, "time": 3.056462
+"rank": 8, "time": 3.057614
+"rank": 0, "time": 3.058664
+"rank": 6, "time": 3.078176
+============================================
+OpenMPI 1.8 -- GNU 4.8 -- 1 thread per rank
+============================================
+[rhea59:113058] MCW rank 15 bound to socket 1[core 15[hwt 0]]: [../../../../../../../..][../../../../../../../B.]
+[rhea59:113058] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B./../../../../../../..][../../../../../../../..]
+[rhea59:113058] MCW rank 1 bound to socket 0[core 1[hwt 0]]: [../B./../../../../../..][../../../../../../../..]
+[rhea59:113058] MCW rank 2 bound to socket 0[core 2[hwt 0]]: [../../B./../../../../..][../../../../../../../..]
+[rhea59:113058] MCW rank 3 bound to socket 0[core 3[hwt 0]]: [../../../B./../../../..][../../../../../../../..]
+[rhea59:113058] MCW rank 4 bound to socket 0[core 4[hwt 0]]: [../../../../B./../../..][../../../../../../../..]
+[rhea59:113058] MCW rank 5 bound to socket 0[core 5[hwt 0]]: [../../../../../B./../..][../../../../../../../..]
+[rhea59:113058] MCW rank 6 bound to socket 0[core 6[hwt 0]]: [../../../../../../B./..][../../../../../../../..]
+[rhea59:113058] MCW rank 7 bound to socket 0[core 7[hwt 0]]: [../../../../../../../B.][../../../../../../../..]
+[rhea59:113058] MCW rank 8 bound to socket 1[core 8[hwt 0]]: [../../../../../../../..][B./../../../../../../..]
+[rhea59:113058] MCW rank 9 bound to socket 1[core 9[hwt 0]]: [../../../../../../../..][../B./../../../../../..]
+[rhea59:113058] MCW rank 10 bound to socket 1[core 10[hwt 0]]: [../../../../../../../..][../../B./../../../../..]
+[rhea59:113058] MCW rank 11 bound to socket 1[core 11[hwt 0]]: [../../../../../../../..][../../../B./../../../..]
+[rhea59:113058] MCW rank 12 bound to socket 1[core 12[hwt 0]]: [../../../../../../../..][../../../../B./../../..]
+[rhea59:113058] MCW rank 13 bound to socket 1[core 13[hwt 0]]: [../../../../../../../..][../../../../../B./../..]
+[rhea59:113058] MCW rank 14 bound to socket 1[core 14[hwt 0]]: [../../../../../../../..][../../../../../../B./..]
+"hostname": rhea59, "cpu_id": 5, "rank": 5, "thread_id": 0
+"hostname": rhea59, "cpu_id": 6, "rank": 6, "thread_id": 0
+"hostname": rhea59, "cpu_id": 7, "rank": 7, "thread_id": 0
+"hostname": rhea59, "cpu_id": 8, "rank": 8, "thread_id": 0
+"hostname": rhea59, "cpu_id": 9, "rank": 9, "thread_id": 0
+"hostname": rhea59, "cpu_id": 10, "rank": 10, "thread_id": 0
+"hostname": rhea59, "cpu_id": 11, "rank": 11, "thread_id": 0
+"hostname": rhea59, "cpu_id": 12, "rank": 12, "thread_id": 0
+"hostname": rhea59, "cpu_id": 13, "rank": 13, "thread_id": 0
+"hostname": rhea59, "cpu_id": 0, "rank": 0, "thread_id": 0
+"hostname": rhea59, "cpu_id": 1, "rank": 1, "thread_id": 0
+"hostname": rhea59, "cpu_id": 2, "rank": 2, "thread_id": 0
+"hostname": rhea59, "cpu_id": 3, "rank": 3, "thread_id": 0
+"hostname": rhea59, "cpu_id": 4, "rank": 4, "thread_id": 0
+"hostname": rhea59, "cpu_id": 14, "rank": 14, "thread_id": 0
+"hostname": rhea59, "cpu_id": 15, "rank": 15, "thread_id": 0
+"rank": 14, "time": 8.859405
+"rank": 3, "time": 8.869651
+"rank": 1, "time": 8.877385
+"rank": 9, "time": 8.883131
+"rank": 12, "time": 8.887656
+"rank": 13, "time": 8.888313
+"rank": 2, "time": 8.893870
+"rank": 5, "time": 8.903974
+"rank": 11, "time": 8.905293
+"rank": 7, "time": 8.907377
+"rank": 8, "time": 8.909338
+"rank": 15, "time": 8.910555
+"rank": 4, "time": 8.911825
+"rank": 6, "time": 8.961173
+"rank": 0, "time": 8.968728
+"rank": 10, "time": 9.175159
+============================================
+OpenMPI 1.6 -- GNU 4.8 -- 1 thread per rank
+============================================
+PE-gnu(4):ERROR:105: Unable to locate a modulefile for 'PE-gnu/4.8.2'
+/var/spool/torque/mom_priv/jobs/49884.rhea-mgmt2g.ccs.ornl.gov.SC: line 76: mpicc: command not found
+/var/spool/torque/mom_priv/jobs/49884.rhea-mgmt2g.ccs.ornl.gov.SC: line 78: mpirun: command not found
+=============================================
+OpenMPI 1.8 -- GNU 4.8 -- 2 threads per rank
+=============================================
+[rhea59:113326] MCW rank 15 bound to socket 1[core 15[hwt 0]]: [../../../../../../../..][../../../../../../../B.]
+[rhea59:113326] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B./../../../../../../..][../../../../../../../..]
+[rhea59:113326] MCW rank 1 bound to socket 0[core 1[hwt 0]]: [../B./../../../../../..][../../../../../../../..]
+[rhea59:113326] MCW rank 2 bound to socket 0[core 2[hwt 0]]: [../../B./../../../../..][../../../../../../../..]
+[rhea59:113326] MCW rank 3 bound to socket 0[core 3[hwt 0]]: [../../../B./../../../..][../../../../../../../..]
+[rhea59:113326] MCW rank 4 bound to socket 0[core 4[hwt 0]]: [../../../../B./../../..][../../../../../../../..]
+[rhea59:113326] MCW rank 5 bound to socket 0[core 5[hwt 0]]: [../../../../../B./../..][../../../../../../../..]
+[rhea59:113326] MCW rank 6 bound to socket 0[core 6[hwt 0]]: [../../../../../../B./..][../../../../../../../..]
+[rhea59:113326] MCW rank 7 bound to socket 0[core 7[hwt 0]]: [../../../../../../../B.][../../../../../../../..]
+[rhea59:113326] MCW rank 8 bound to socket 1[core 8[hwt 0]]: [../../../../../../../..][B./../../../../../../..]
+[rhea59:113326] MCW rank 9 bound to socket 1[core 9[hwt 0]]: [../../../../../../../..][../B./../../../../../..]
+[rhea59:113326] MCW rank 10 bound to socket 1[core 10[hwt 0]]: [../../../../../../../..][../../B./../../../../..]
+[rhea59:113326] MCW rank 11 bound to socket 1[core 11[hwt 0]]: [../../../../../../../..][../../../B./../../../..]
+[rhea59:113326] MCW rank 12 bound to socket 1[core 12[hwt 0]]: [../../../../../../../..][../../../../B./../../..]
+[rhea59:113326] MCW rank 13 bound to socket 1[core 13[hwt 0]]: [../../../../../../../..][../../../../../B./../..]
+[rhea59:113326] MCW rank 14 bound to socket 1[core 14[hwt 0]]: [../../../../../../../..][../../../../../../B./..]
+"hostname": rhea59, "cpu_id": 4, "rank": 4, "thread_id": 0
+"hostname": rhea59, "cpu_id": 4, "rank": 4, "thread_id": 1
+"hostname": rhea59, "cpu_id": 5, "rank": 5, "thread_id": 0
+"hostname": rhea59, "cpu_id": 5, "rank": 5, "thread_id": 1
+"hostname": rhea59, "cpu_id": 6, "rank": 6, "thread_id": 0
+"hostname": rhea59, "cpu_id": 6, "rank": 6, "thread_id": 1
+"hostname": rhea59, "cpu_id": 7, "rank": 7, "thread_id": 0
+"hostname": rhea59, "cpu_id": 7, "rank": 7, "thread_id": 1
+"hostname": rhea59, "cpu_id": 8, "rank": 8, "thread_id": 0
+"hostname": rhea59, "cpu_id": 8, "rank": 8, "thread_id": 1
+"hostname": rhea59, "cpu_id": 9, "rank": 9, "thread_id": 0
+"hostname": rhea59, "cpu_id": 9, "rank": 9, "thread_id": 1
+"hostname": rhea59, "cpu_id": 10, "rank": 10, "thread_id": 0
+"hostname": rhea59, "cpu_id": 10, "rank": 10, "thread_id": 1
+"hostname": rhea59, "cpu_id": 11, "rank": 11, "thread_id": 0
+"hostname": rhea59, "cpu_id": 11, "rank": 11, "thread_id": 1
+"hostname": rhea59, "cpu_id": 12, "rank": 12, "thread_id": 0
+"hostname": rhea59, "cpu_id": 12, "rank": 12, "thread_id": 1
+"hostname": rhea59, "cpu_id": 0, "rank": 0, "thread_id": 0
+"hostname": rhea59, "cpu_id": 0, "rank": 0, "thread_id": 1
+"hostname": rhea59, "cpu_id": 1, "rank": 1, "thread_id": 0
+"hostname": rhea59, "cpu_id": 1, "rank": 1, "thread_id": 1
+"hostname": rhea59, "cpu_id": 2, "rank": 2, "thread_id": 0
+"hostname": rhea59, "cpu_id": 2, "rank": 2, "thread_id": 1
+"hostname": rhea59, "cpu_id": 3, "rank": 3, "thread_id": 0
+"hostname": rhea59, "cpu_id": 3, "rank": 3, "thread_id": 1
+"hostname": rhea59, "cpu_id": 14, "rank": 14, "thread_id": 0
+"hostname": rhea59, "cpu_id": 14, "rank": 14, "thread_id": 1
+"hostname": rhea59, "cpu_id": 15, "rank": 15, "thread_id": 0
+"hostname": rhea59, "cpu_id": 15, "rank": 15, "thread_id": 1
+"hostname": rhea59, "cpu_id": 13, "rank": 13, "thread_id": 0
+"hostname": rhea59, "cpu_id": 13, "rank": 13, "thread_id": 1
+"rank": 5, "time": 8.876234
+"rank": 15, "time": 8.870786
+"rank": 14, "time": 8.880818
+"rank": 12, "time": 8.880909
+"rank": 7, "time": 8.907262
+"rank": 9, "time": 8.905028
+"rank": 6, "time": 8.912466
+"rank": 10, "time": 8.917218
+"rank": 2, "time": 8.913527
+"rank": 0, "time": 8.919452
+"rank": 8, "time": 8.921134
+"rank": 11, "time": 8.928583
+"rank": 3, "time": 8.935926
+"rank": 1, "time": 8.933090
+"rank": 4, "time": 8.949699
+"rank": 13, "time": 8.952236
+============================================
+OpenMPI 1.6 -- GNU 4.8 -- 2 threads per rank
+============================================
+PE-gnu(4):ERROR:105: Unable to locate a modulefile for 'PE-gnu/4.8.2'
+/var/spool/torque/mom_priv/jobs/49884.rhea-mgmt2g.ccs.ornl.gov.SC: line 98: mpicc: command not found
+/var/spool/torque/mom_priv/jobs/49884.rhea-mgmt2g.ccs.ornl.gov.SC: line 100: mpirun: command not found
